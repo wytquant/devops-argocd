@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: pun-api
-        image: ghcr.io/wytquant/devops-go-example:1b719f744d2ca0ec3855f982d68ff59800aea844
+        image: ghcr.io/wytquant/devops-go-example:8806ee8d9b4ed55d507b61694d70d40da554dc97
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
